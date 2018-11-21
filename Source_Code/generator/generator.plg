@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: generator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1AA.tmp" with contents
+[
+/check:bounds /compile_only /dbglibs /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\DATA\RGP_generator\Source_Code\fortran\UTILITY.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\TRNSP.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\TRNS_VIS.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\TRNS_TCX.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\TRNS_ECS.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\SETUP2.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\SETUP.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\SAT_SUB.FOR"
+"C:\DATA\RGP_gen_2\RGPgenerator.F90"
+"C:\DATA\RGP_generator\Source_Code\fortran\REALGAS.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\PROP_SUB.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\PASS_FTN.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\MIX_HMX.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\MIX_AGA8.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\IDEALGAS.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\FLSH_SUB.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\FLASH2.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_STN.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_QUI.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_PR.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_PH0.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_MLT.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_FEQ.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_ECS.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_DE.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_CPP.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_BWR.FOR"
+"C:\DATA\RGP_generator\Source_Code\fortran\CORE_ANC.FOR"
+]
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1AB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/generator.pdb" /debug /machine:I386 /out:"Debug/generator.exe" /pdbtype:sept 
+.\Debug\CORE_ANC.OBJ
+.\Debug\CORE_BWR.OBJ
+.\Debug\CORE_CPP.OBJ
+.\Debug\CORE_DE.OBJ
+.\Debug\CORE_ECS.OBJ
+.\Debug\CORE_FEQ.OBJ
+.\Debug\CORE_MLT.OBJ
+.\Debug\CORE_PH0.OBJ
+.\Debug\CORE_PR.OBJ
+.\Debug\CORE_QUI.OBJ
+.\Debug\CORE_STN.OBJ
+.\Debug\FLASH2.OBJ
+.\Debug\FLSH_SUB.OBJ
+.\Debug\IDEALGAS.OBJ
+.\Debug\MIX_AGA8.OBJ
+.\Debug\MIX_HMX.OBJ
+.\Debug\PASS_FTN.OBJ
+.\Debug\PROP_SUB.OBJ
+.\Debug\REALGAS.OBJ
+.\Debug\RGPgenerator.obj
+.\Debug\SAT_SUB.OBJ
+.\Debug\SETUP.OBJ
+.\Debug\SETUP2.OBJ
+.\Debug\TRNS_ECS.OBJ
+.\Debug\TRNS_TCX.OBJ
+.\Debug\TRNS_VIS.OBJ
+.\Debug\TRNSP.OBJ
+.\Debug\UTILITY.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP1AB.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\DATA\RGP_generator\Source_Code\fortran\UTILITY.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\TRNSP.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\TRNS_VIS.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\TRNS_TCX.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\TRNS_ECS.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\SETUP2.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\SETUP.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\SAT_SUB.FOR
+C:\DATA\RGP_gen_2\RGPgenerator.F90
+C:\DATA\RGP_generator\Source_Code\fortran\REALGAS.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\PROP_SUB.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\PASS_FTN.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\MIX_HMX.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\MIX_AGA8.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\IDEALGAS.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\FLSH_SUB.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\FLASH2.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_STN.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_QUI.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_PR.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_PH0.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_MLT.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_FEQ.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_ECS.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_DE.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_CPP.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_BWR.FOR
+C:\DATA\RGP_generator\Source_Code\fortran\CORE_ANC.FOR
+Linking...
+   Creating library Debug/generator.lib and object Debug/generator.exp
+
+
+
+<h3>Results</h3>
+generator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
